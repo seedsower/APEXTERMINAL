@@ -1,9 +1,23 @@
 {
+	"name": "apex-commodity",
+	"version": "1.0.0",
+	"description": "APex Commodity - A next-generation decentralized trading platform",
 	"directories": {
 		"test": "tests"
 	},
-	"author": "",
+	"author": "APex Commodity Team",
 	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/seedsower/APEXTERM"
+	},
+	"keywords": [
+		"solana",
+		"defi",
+		"trading",
+		"dex",
+		"apex-commodity"
+	],
 	"devDependencies": {
 		"@coral-xyz/anchor": "0.29.0",
 		"@coral-xyz/anchor-30": "npm:@coral-xyz/anchor@0.30.1",

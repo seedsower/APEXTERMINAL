@@ -1,12 +1,8 @@
 <div align="center">
-  <img height="120x" src="https://uploads-ssl.webflow.com/611580035ad59b20437eb024/616f97a42f5637c4517d0193_Logo%20(1)%20(1).png" />
-
-  <h1 style="margin-top:20px;">Drift Protocol v2</h1>
+  <h1 style="margin-top:20px;">APex Commodity SDK</h1>
 
   <p>
-    <a href="https://www.npmjs.com/package/@drift-labs/sdk"><img alt="SDK npm package" src="https://img.shields.io/npm/v/@drift-labs/sdk" /></a>
-    <a href="https://drift-labs.github.io/protocol-v2/sdk/"><img alt="Docs" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
-    <a href="https://discord.com/channels/849494028176588802/878700556904980500"><img alt="Discord Chat" src="https://img.shields.io/discord/889577356681945098?color=blueviolet" /></a>
+    <a href="#"><img alt="Docs" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
     <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/github/license/project-serum/anchor?color=blueviolet" /></a>
   </p>
 </div>
@@ -14,25 +10,24 @@
 ## Installation
 
 ```
-npm i @drift-labs/sdk
+npm install
 ```
 
 ## Getting Started
 
-_Start here if you're integrating with Drift!_
+_Start here if you're integrating with APex Commodity!_
 
-- [Drift v2-teacher + API Docs](https://drift-labs.github.io/v2-teacher/)
-  - Docs and examples for using the SDK in Typescript and Python
-  - Useful concepts and examples when integrating Drift
-  - Docs for Drift's "Data API"
-- [Typescript API docs](https://drift-labs.github.io/protocol-v2/sdk/)
-  - JSDoc automated documentation for the Drift v2 Typescript SDK
-- [Drift docs](https://docs.drift.trade/)
+- APex Commodity SDK Documentation
+  - Docs and examples for using the SDK in Typescript
+  - Useful concepts and examples when integrating with APex Commodity
+  - API documentation for the platform
+- [Typescript API docs]()
+  - JSDoc automated documentation for the APex Commodity Typescript SDK
   - Comprehensive universal docs for Drift
 
 ---
 
-The below is a light overview of using Solana and Drift's typescript sdk. If you want comprehensive docs with examples of how to integrate with Drift you should use the [v2-teacher docs](https://drift-labs.github.io/v2-teacher/).
+The below is a light overview of using Solana and APex Commodity's TypeScript SDK. For comprehensive documentation and examples on how to integrate with APex Commodity, please refer to our official documentation.
 
 ### Setting up a wallet for your program
 
@@ -75,7 +70,7 @@ The Drift SDK uses some common precisions, which are available as constants to i
 Because BN only supports integers, you need to be conscious of the numbers you are using when dividing. BN will return the floor when using the regular division function; if you want to get the exact division, you need to add the modulus of the two numbers as well. There is a helper function `convertToNumber` in the SDK which will do this for you.
 
 ```typescript
-import {convertToNumber} from @drift-labs/sdk
+import {convertToNumber} from @apex-commodity/sdk
 
 // Gets the floor value
 new BN(10500).div(new BN(1000)).toNumber(); // = 10

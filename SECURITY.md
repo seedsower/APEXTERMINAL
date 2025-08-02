@@ -1,5 +1,6 @@
-# Bug Bounty Overview
-Drift offers bug bounties for Drift's on-chain program code; UI only bugs are omitted.
+# APex Commodity Bug Bounty Program
+
+APex Commodity offers bug bounties for our on-chain program code; UI-only bugs are omitted.
 
 |Severity|Description|Bug Bounty|
 |-----------|--------------|-------------|
@@ -11,7 +12,7 @@ The severity guidelines are based on [Immunefi's classification system](https://
 Note that these are simply guidelines for the severity of the bugs. Each bug bounty submission will be evaluated on a case-by-case basis.
 
 ## Submission
-Please email hello@drift.trade with a detailed description of the attack vector. For critical and moderate bugs, we require a proof of concept done on a privately deployed mainnet contract. We will reach back out in 1 business day with additional questions or the next steps on the bug bounty.
+Please submit your findings to security@apexcommodity.io with a detailed description of the attack vector. For critical and moderate bugs, we require a proof of concept done on a privately deployed mainnet contract. We will respond within 1-2 business days with additional questions or the next steps regarding your submission.
 
 ## Bug Bounty Payment
 Bug bounties will be paid in USDC. Alternative payment methods can be used on a case-by-case basis.
